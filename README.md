@@ -33,6 +33,98 @@ Publish the website in the LocalHost.
 ## PROGRAM:
 ```
 book.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Cover</title>
+
+  <style>
+    body {
+      margin: 0;
+      background-color: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: 'Georgia', serif;
+    }
+
+    .book-cover {
+      position: relative;
+      width: 1000px;
+      height: 600px;
+    }
+
+    
+    .bg-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    
+    .college-img {
+      position: absolute;
+      right: 40px;        
+      top: 50%;
+      transform: translateY(-50%);
+      width: 250px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    }
+
+    .content {
+      position: absolute;
+      top: 50%;
+      left: 30%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: #ef9309;
+    }
+
+    .title {
+      font-size: 32px;
+      font-weight: bold;
+    }
+
+    .line {
+      height: 2px;
+      background: #555;
+      width: 60px;
+      margin: 12px auto;
+    }
+
+    .author {
+      font-size: 18px;
+      margin-top: 20px;
+      color: lightcoral;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="book-cover">
+   
+    <img src="blue-concrete-wall-texture-background.jpg" class="bg-img">
+
+    
+    <img src="college pht.jpeg" class="college-img">
+
+    
+    <div class="content">
+      <div class="title">ART OF LEARNING</div>
+      <div class="line"></div>
+      <div class="author">BY RIHAB ZH</div>
+    </div>
+  </div>
+
+</body>
+</html>
+
 ```
 
 
